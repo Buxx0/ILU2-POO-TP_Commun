@@ -17,6 +17,6 @@ public class ReservationHotel extends Reservation {
 	public String toString() {
 		return "Le " + this.getJour() + "/" + this.getMois() +
 				" : chambre numero " + this.numeroChambre + " avec " + 
-				this.nbLitSimple + " lits simples et " + this.nbLitDouble + " lits doubles.";
+				this.nbLitSimple + " lits simples et " + this.nbLitDouble + " lits doubles.\n";
 	}
 }

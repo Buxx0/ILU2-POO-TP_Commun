@@ -14,11 +14,11 @@ public class ReservationRestaurant extends Reservation{
 	public String toString() {
 		StringBuilder reservationRestaurant = new StringBuilder();
 		reservationRestaurant.append("Le " + this.getJour() + "/" + this.getMois() +
-				" : table numero " + this.numeroTableReservee);
+				" : table n°" + this.numeroTableReservee);
 		if (numeroService == 1) {
 			reservationRestaurant.append( " pour le premier service.\n");
 		} else if (numeroService == 2) {
-			reservationRestaurant.append( " pour le deuxieme service.\n");
+			reservationRestaurant.append( " pour le deuxième service.\n");
 		}
 		return reservationRestaurant.toString();
 	}
